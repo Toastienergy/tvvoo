@@ -1,7 +1,5 @@
 name: Build image (GHCR)
 on:
-  push:
-    branches: [epg-multi-country]
   workflow_dispatch:
 permissions:
   contents: read
